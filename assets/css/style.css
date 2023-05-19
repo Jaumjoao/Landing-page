@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(../images/fundo.jpg);
+    background-size: cover;
+    color: #FFF;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#titulo-carrossel{
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 50px;
+}
+#samanta{
+    margin-right: 50px;
+}
+#seta-esquerda, #bruna{
+    display: none;
+}
+.seta{
+    margin-top: 250%;
+    cursor: pointer;
+}
+#seta-direita:hover{
+    transform: translateX(7px);
+    transition-duration: 0.5s;
+}
+#seta-esquerda:hover{
+    transform: translateX(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    cursor: text;
+}
+
+button{
+    background-color: #247BA0;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: none;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4cabd3;
+    color: #FFF;
+    height: 45px;
+    width: 260px;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
